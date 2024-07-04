@@ -1,0 +1,85 @@
+{
+  "books": [
+    {
+      "id": "B001",
+      "name": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "count": 3
+    },
+    {
+      "id": "B002",
+      "name": "Design Patterns",
+      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "category": "Programming",
+      "count": 1
+    },
+    {
+      "id": "B003",
+      "name": "FLutter",
+      "author": "Google",
+      "category": "Programming",
+      "count": 7
+    },
+    {
+      "id": "VA01",
+      "name": "Sach vo cong",
+      "author": "Viet Anh",
+      "category": "vo cong",
+      "count": 3
+    }
+  ],
+  "members": [
+    {
+      "id": "M001",
+      "name": "John Doe",
+      "address": "123 Main St, Anytown",
+      "borrowings": [
+        "B001",
+        "B001",
+        "B001",
+        "B001",
+        "B001"
+      ]
+    },
+    {
+      "id": "M002",
+      "name": "Viet",
+      "address": "Anh",
+      "borrowings": [
+        "B001",
+        "B002",
+        "B002",
+        "B002"
+      ]
+    }
+  ],
+  "librarians": [
+    {
+      "id": "L001",
+      "name": "Alice Brown",
+      "shift": "sang"
+    },
+    {
+      "id": "L002",
+      "name": "Bob Green",
+      "shift": "chieu"
+    }
+  ],
+  "borrowings": [
+    {
+      "id": "B001",
+      "idMember": "M001",
+      "startBorrowing": "2024-07-04",
+      "endBorrowing": "2025-07-23",
+      "state": "dang muon"
+    },
+    {
+      "id": "B002",
+      "idMember": "M002",
+      "startBorrowing": "2024-07-04",
+      "endBorrowing": "2024-07-24",
+      "state": "dang muon"
+    }
+  ]
+}
